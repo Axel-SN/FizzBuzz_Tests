@@ -23,3 +23,8 @@ for (let i = 0; i < 31; i++) {
   }
   console.log(logOut1 + i + logOut2 + logOut3);
 }
+
+// to do
+// make code more efficient
+// look up dictionary/hashmap
+// look for further improvements
