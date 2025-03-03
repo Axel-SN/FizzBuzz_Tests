@@ -32,7 +32,6 @@ for (let i = 0; i < 31; i++) {
 
 */
 
-/*
 // Map approach
 
 // Objective: iterate through a for-loop and check conditions to print out specific words. After the first set of conditions was checked, check another set of conditions and add its words to the final String that gets printed out. In case no condition holds true, just print out the iterator of the for-loop.
@@ -79,9 +78,8 @@ for (let i = 0; i < 31; i++) {
     console.log(i);
   }
 }
-*/
 
-// testing code efficency from outside help:
+// Testing my own code vs Code suggested from AI:
 
 function measureExecutionTime(label, func) {
   const start = performance.now();
@@ -149,3 +147,11 @@ function optimizedApproach() {
 // Run benchmarks
 measureExecutionTime("Original Approach", originalApproach);
 measureExecutionTime("Optimized Approach", optimizedApproach);
+
+// result:
+// Original Approach took 16.7373 ms
+// Optimized Approach took 1.6410 ms
+
+// -> console logs take a lot of time
+// -> function calls take time
+// I think the map approach looks a little cleaner.
